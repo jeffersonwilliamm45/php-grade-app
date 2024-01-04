@@ -1,0 +1,1 @@
+<script src="/grade-app/includes/static-files/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,64 @@
+@import url( "roboto-fonts.css" );
+
+body { 
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px; 
+}
+
+::selection { 
+  color: teal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.add-content-button,
+.update-content-button {
+  font-size: 12px;
+}
+
+.data-form {  
+  padding-top: 90px; 
+  max-width: 500px;
+  margin: auto; 
+} 
+
+.form-control:focus {
+  border-color: teal;
+  box-shadow: inset 0 0.1px 0.1px;
+  outline: 0 none;
+}
+
+.error-message {
+  color:red;
+}
+
+.main-content {
+  padding-top: 40px; 
+  max-width: 950px;
+  margin: auto; 
+}
+
+.no-content-msg {
+  color: red;
+}
+
+.resource-update-link-form {
+  display: inline;
+}
+
+.delete-link {
+  color: red;
+}
+
+.operation-successfull-message {
+  color: green;
+}
+
+.operation-failure-message,
+.delete-instruction {
+  color: red;
+}
+
